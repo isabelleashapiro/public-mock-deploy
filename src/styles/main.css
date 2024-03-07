@@ -1,0 +1,51 @@
+/*
+  This is a reasonable starting point for the CSS in Mock.
+  Positioning in CSS can sometimes be annoying to manage, so we've opted to 
+  give you this starter CSS. Feel free to modify it as you wish, though.
+*/
+
+.repl {
+  position: relative;
+  min-height: 95vh;
+}
+
+.repl-history {
+  height: 55vh;
+  margin: auto;
+  display: block;
+  overflow: scroll;
+  background-color:antiquewhite;
+  justify-content: center;
+  align-items: center;
+}
+
+.repl-history-output {
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.repl-history table {
+    margin-left: auto;
+    margin-right: auto; /* Specifically center tables */
+    border-collapse: collapse;
+}
+
+/* not sure this is doing anything*/
+.repl-history td{
+  padding: 10px;
+}
+
+.repl-input {
+  margin: auto;
+  height: 10vh;
+}
+.repl-command-box {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+button {
+  margin: auto;
+  display: block;
+}
